@@ -2,7 +2,6 @@ import React, {useCallback} from "react";
 import {Block} from '../../components/simpleComponents/Block';
 import {Text} from '../../components/simpleComponents/Text';
 import {colors} from '../../components/colors';
-import ArrowRight from '../../../assets/icons/ArrowRight.svg';
 import BG from '../../../assets/images/WelcomeBgImage.png';
 import {Button} from "../../components/simpleComponents/Button";
 import {Alert, ImageBackground, Linking} from 'react-native';
