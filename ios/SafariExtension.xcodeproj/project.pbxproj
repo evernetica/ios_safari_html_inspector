@@ -1,0 +1,1306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C881177D6A4BDB888233F6 /* ABCFavorit-Regular-Trial.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93C538C27E8B4A3AB26BA75E /* ABCFavorit-Regular-Trial.otf */; };
+		17105A2DC31B7321CA0CCF65 /* Pods_SafariExtension__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED452AB5FB18E7A80BA8832 /* Pods_SafariExtension__macOS_.framework */; };
+		84B9A5382ACAE0D3004B2FF8 /* SharedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9A5372ACAE0D3004B2FF8 /* SharedData.m */; };
+		84B9A53A2ACAE2CA004B2FF8 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9A5392ACAE2CA004B2FF8 /* SharedData.swift */; };
+		84DDF7442ABE01D7002F9F28 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84DDF7422ABE01D7002F9F28 /* GoogleService-Info.plist */; };
+		88128A1B6B8F402385420C76 /* Helvetica.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C095DE1756D54D8183A43AD9 /* Helvetica.ttf */; };
+		902958F6250843A7B0427530 /* ABCFavorit-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09A9A6D1DB9948DEA31874B7 /* ABCFavorit-Bold.otf */; };
+		A12231CC56DE4CE34A64EFA3 /* Pods_SafariExtension_Extension__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7549BA4E148396185EEB589A /* Pods_SafariExtension_Extension__iOS_.framework */; };
+		B702EFAFF3FC813BAD171BC3 /* Pods_SafariExtension__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637721CD4C8B67A292644B8B /* Pods_SafariExtension__iOS_.framework */; };
+		CE0A83042A9CBC3B00BA84A9 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = CE0A83032A9CBC3B00BA84A9 /* main.jsbundle */; };
+		CE0A83082A9CC2FE00BA84A9 /* ReactNativeBridgeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0A83072A9CC2FE00BA84A9 /* ReactNativeBridgeDelegate.swift */; };
+		CE0A830A2A9DFE7600BA84A9 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0A83092A9DFE7600BA84A9 /* JavaScriptCore.framework */; };
+		CEE2B6162A9F333E00227054 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = CEE2B6142A9F333E00227054 /* assets */; };
+		CEE2B61C2A9F3FAB00227054 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2B61A2A9F3FAB00227054 /* Icon.png */; };
+		CEE2B61D2A9F3FAB00227054 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2B61A2A9F3FAB00227054 /* Icon.png */; };
+		CEE2B61E2A9F3FAB00227054 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2B61A2A9F3FAB00227054 /* Icon.png */; };
+		CEE2B61F2A9F3FAB00227054 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE2B61A2A9F3FAB00227054 /* Icon.png */; };
+		CEEA6C672A669B7900C2FCA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA6C662A669B7900C2FCA6 /* AppDelegate.swift */; };
+		CEEA6C692A669B7900C2FCA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA6C682A669B7900C2FCA6 /* SceneDelegate.swift */; };
+		CEEA6C6C2A669B7900C2FCA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C6A2A669B7900C2FCA6 /* LaunchScreen.storyboard */; };
+		CEEA6C6F2A669B7900C2FCA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C6D2A669B7900C2FCA6 /* Main.storyboard */; };
+		CEEA6C782A669B7900C2FCA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA6C772A669B7900C2FCA6 /* AppDelegate.swift */; };
+		CEEA6C7B2A669B7900C2FCA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C792A669B7900C2FCA6 /* Main.storyboard */; };
+		CEEA6C822A669B7900C2FCA6 /* SafariExtension Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CEEA6C812A669B7900C2FCA6 /* SafariExtension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CEEA6C8C2A669B7900C2FCA6 /* SafariExtension Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CEEA6C8B2A669B7900C2FCA6 /* SafariExtension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CEEA6C922A669B7900C2FCA6 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C4D2A669B7800C2FCA6 /* Main.html */; };
+		CEEA6C932A669B7900C2FCA6 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C4D2A669B7800C2FCA6 /* Main.html */; };
+		CEEA6C962A669B7900C2FCA6 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C502A669B7800C2FCA6 /* Style.css */; };
+		CEEA6C972A669B7900C2FCA6 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C502A669B7800C2FCA6 /* Style.css */; };
+		CEEA6C982A669B7900C2FCA6 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C512A669B7800C2FCA6 /* Script.js */; };
+		CEEA6C992A669B7900C2FCA6 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C512A669B7800C2FCA6 /* Script.js */; };
+		CEEA6C9A2A669B7900C2FCA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA6C522A669B7800C2FCA6 /* ViewController.swift */; };
+		CEEA6C9B2A669B7900C2FCA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA6C522A669B7800C2FCA6 /* ViewController.swift */; };
+		CEEA6C9C2A669B7900C2FCA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C532A669B7900C2FCA6 /* Assets.xcassets */; };
+		CEEA6C9D2A669B7900C2FCA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C532A669B7900C2FCA6 /* Assets.xcassets */; };
+		CEEA6C9E2A669B7900C2FCA6 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA6C552A669B7900C2FCA6 /* SafariWebExtensionHandler.swift */; };
+		CEEA6C9F2A669B7900C2FCA6 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA6C552A669B7900C2FCA6 /* SafariWebExtensionHandler.swift */; };
+		CEEA6CA02A669B7900C2FCA6 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C572A669B7900C2FCA6 /* _locales */; };
+		CEEA6CA12A669B7900C2FCA6 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C572A669B7900C2FCA6 /* _locales */; };
+		CEEA6CA22A669B7900C2FCA6 /* images in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C582A669B7900C2FCA6 /* images */; };
+		CEEA6CA32A669B7900C2FCA6 /* images in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C582A669B7900C2FCA6 /* images */; };
+		CEEA6CA42A669B7900C2FCA6 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C592A669B7900C2FCA6 /* manifest.json */; };
+		CEEA6CA52A669B7900C2FCA6 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C592A669B7900C2FCA6 /* manifest.json */; };
+		CEEA6CA62A669B7900C2FCA6 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C5A2A669B7900C2FCA6 /* background.js */; };
+		CEEA6CA72A669B7900C2FCA6 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C5A2A669B7900C2FCA6 /* background.js */; };
+		CEEA6CA82A669B7900C2FCA6 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C5B2A669B7900C2FCA6 /* content.js */; };
+		CEEA6CA92A669B7900C2FCA6 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C5B2A669B7900C2FCA6 /* content.js */; };
+		CEEA6CAA2A669B7900C2FCA6 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C5C2A669B7900C2FCA6 /* popup.html */; };
+		CEEA6CAB2A669B7900C2FCA6 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C5C2A669B7900C2FCA6 /* popup.html */; };
+		CEEA6CAC2A669B7900C2FCA6 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C5D2A669B7900C2FCA6 /* popup.css */; };
+		CEEA6CAD2A669B7900C2FCA6 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C5D2A669B7900C2FCA6 /* popup.css */; };
+		CEEA6CAE2A669B7900C2FCA6 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C5E2A669B7900C2FCA6 /* popup.js */; };
+		CEEA6CAF2A669B7900C2FCA6 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = CEEA6C5E2A669B7900C2FCA6 /* popup.js */; };
+		CEF101262A7B953B00CACDB8 /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = CEF101252A7B953B00CACDB8 /* content.css */; };
+		CEF101272A7B953B00CACDB8 /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = CEF101252A7B953B00CACDB8 /* content.css */; };
+		CEF101282A7B953B00CACDB8 /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = CEF101252A7B953B00CACDB8 /* content.css */; };
+		CEF101292A7B953B00CACDB8 /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = CEF101252A7B953B00CACDB8 /* content.css */; };
+		DE684A0F02464E8F8C612CB1 /* ABCFavoritMono-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5BD8830F7E2B4437B0928CC7 /* ABCFavoritMono-Bold.otf */; };
+		E2114B5C751C0D4B6542B6DA /* Pods_SafariExtension_Extension__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F53BAB9ED3A1B91F208FFB /* Pods_SafariExtension_Extension__macOS_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE0A83192A9E069A00BA84A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE0A83152A9E069A00BA84A9 /* RNSafeAreaContext.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNCSafeAreaContext;
+		};
+		CEEA6C832A669B7900C2FCA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEA6C472A669B7800C2FCA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEEA6C802A669B7900C2FCA6;
+			remoteInfo = "SafariExtension Extension (iOS)";
+		};
+		CEEA6C8D2A669B7900C2FCA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEA6C472A669B7800C2FCA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEEA6C8A2A669B7900C2FCA6;
+			remoteInfo = "SafariExtension Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEEA6CB52A669B7900C2FCA6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CEEA6C822A669B7900C2FCA6 /* SafariExtension Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA6CBC2A669B7900C2FCA6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CEEA6C8C2A669B7900C2FCA6 /* SafariExtension Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09A9A6D1DB9948DEA31874B7 /* ABCFavorit-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ABCFavorit-Bold.otf"; path = "../assets/fonts/ABCFavorit-Bold.otf"; sourceTree = "<group>"; };
+		12F71A2A03584C90881F2B25 /* Inter.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Inter.ttf; path = ../.src/assets/fonts/Inter.ttf; sourceTree = "<group>"; };
+		4EA724E4C5D210336E20CFD1 /* Pods-SafariExtension Extension (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafariExtension Extension (iOS).release.xcconfig"; path = "Target Support Files/Pods-SafariExtension Extension (iOS)/Pods-SafariExtension Extension (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		5BD8830F7E2B4437B0928CC7 /* ABCFavoritMono-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ABCFavoritMono-Bold.otf"; path = "../assets/fonts/ABCFavoritMono-Bold.otf"; sourceTree = "<group>"; };
+		637721CD4C8B67A292644B8B /* Pods_SafariExtension__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafariExtension__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F53BAB9ED3A1B91F208FFB /* Pods_SafariExtension_Extension__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafariExtension_Extension__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FA6D1373736BD3D516C4E2 /* Pods-SafariExtension (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafariExtension (iOS).release.xcconfig"; path = "Target Support Files/Pods-SafariExtension (iOS)/Pods-SafariExtension (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		7549BA4E148396185EEB589A /* Pods_SafariExtension_Extension__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafariExtension_Extension__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B9A5362ACAE083004B2FF8 /* SharedData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedData.h; sourceTree = "<group>"; };
+		84B9A5372ACAE0D3004B2FF8 /* SharedData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharedData.m; sourceTree = "<group>"; };
+		84B9A5392ACAE2CA004B2FF8 /* SharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
+		84DDF7422ABE01D7002F9F28 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93C538C27E8B4A3AB26BA75E /* ABCFavorit-Regular-Trial.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ABCFavorit-Regular-Trial.otf"; path = "../assets/fonts/ABCFavorit-Regular-Trial.otf"; sourceTree = "<group>"; };
+		AA65692599F9B534F02AAA3C /* Pods-SafariExtension (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafariExtension (macOS).debug.xcconfig"; path = "Target Support Files/Pods-SafariExtension (macOS)/Pods-SafariExtension (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		B8B3925B5D801C60FC6BA546 /* Pods-SafariExtension Extension (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafariExtension Extension (macOS).debug.xcconfig"; path = "Target Support Files/Pods-SafariExtension Extension (macOS)/Pods-SafariExtension Extension (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		B8EE508D644678C66953A647 /* Pods-SafariExtension (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafariExtension (iOS).debug.xcconfig"; path = "Target Support Files/Pods-SafariExtension (iOS)/Pods-SafariExtension (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		BED452AB5FB18E7A80BA8832 /* Pods_SafariExtension__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafariExtension__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C095DE1756D54D8183A43AD9 /* Helvetica.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Helvetica.ttf; path = ../assets/fonts/Helvetica.ttf; sourceTree = "<group>"; };
+		CD8333783598F7C147D113AE /* Pods-SafariExtension (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafariExtension (macOS).release.xcconfig"; path = "Target Support Files/Pods-SafariExtension (macOS)/Pods-SafariExtension (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		CE0A83032A9CBC3B00BA84A9 /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		CE0A83072A9CC2FE00BA84A9 /* ReactNativeBridgeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeBridgeDelegate.swift; sourceTree = "<group>"; };
+		CE0A83092A9DFE7600BA84A9 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/iOSSupport/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		CE0A83152A9E069A00BA84A9 /* RNSafeAreaContext.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNSafeAreaContext.xcodeproj; path = "../../node_modules/react-native-safe-area-context/ios/RNSafeAreaContext.xcodeproj"; sourceTree = "<group>"; };
+		CE7EC3D32A726C6D001B83C4 /* SafariExtension (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SafariExtension (iOS).entitlements"; sourceTree = "<group>"; };
+		CE7EC3D42A726C6D001B83C4 /* SafariExtension Extension (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SafariExtension Extension (iOS).entitlements"; sourceTree = "<group>"; };
+		CEE2B6072A9E3D9900227054 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../assets; sourceTree = "<group>"; };
+		CEE2B6092A9E3E2900227054 /* Inter.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Inter.ttf; path = ../assets/fonts/Inter.ttf; sourceTree = "<group>"; };
+		CEE2B6142A9F333E00227054 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		CEE2B61A2A9F3FAB00227054 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../assets/icons/Icon.png; sourceTree = "<group>"; };
+		CEEA6C4E2A669B7800C2FCA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		CEEA6C502A669B7800C2FCA6 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		CEEA6C512A669B7800C2FCA6 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		CEEA6C522A669B7800C2FCA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEEA6C532A669B7900C2FCA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEEA6C552A669B7900C2FCA6 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		CEEA6C572A669B7900C2FCA6 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		CEEA6C582A669B7900C2FCA6 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		CEEA6C592A669B7900C2FCA6 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		CEEA6C5A2A669B7900C2FCA6 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		CEEA6C5B2A669B7900C2FCA6 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		CEEA6C5C2A669B7900C2FCA6 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		CEEA6C5D2A669B7900C2FCA6 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		CEEA6C5E2A669B7900C2FCA6 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		CEEA6C632A669B7900C2FCA6 /* SafariExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEA6C662A669B7900C2FCA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEEA6C682A669B7900C2FCA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEEA6C6B2A669B7900C2FCA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEEA6C6E2A669B7900C2FCA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEEA6C702A669B7900C2FCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEA6C752A669B7900C2FCA6 /* SafariExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEA6C772A669B7900C2FCA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEEA6C7A2A669B7900C2FCA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEEA6C7C2A669B7900C2FCA6 /* SafariExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafariExtension.entitlements; sourceTree = "<group>"; };
+		CEEA6C812A669B7900C2FCA6 /* SafariExtension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SafariExtension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEA6C862A669B7900C2FCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEA6C8B2A669B7900C2FCA6 /* SafariExtension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SafariExtension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEA6C902A669B7900C2FCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEA6C912A669B7900C2FCA6 /* SafariExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafariExtension.entitlements; sourceTree = "<group>"; };
+		CEF101252A7B953B00CACDB8 /* content.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = content.css; sourceTree = "<group>"; };
+		DBA18D4BD8C2634C434E67C0 /* Pods-SafariExtension Extension (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafariExtension Extension (iOS).debug.xcconfig"; path = "Target Support Files/Pods-SafariExtension Extension (iOS)/Pods-SafariExtension Extension (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		F7351A28955CFB1E27BD0E76 /* Pods-SafariExtension Extension (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafariExtension Extension (macOS).release.xcconfig"; path = "Target Support Files/Pods-SafariExtension Extension (macOS)/Pods-SafariExtension Extension (macOS).release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEEA6C602A669B7900C2FCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0A830A2A9DFE7600BA84A9 /* JavaScriptCore.framework in Frameworks */,
+				B702EFAFF3FC813BAD171BC3 /* Pods_SafariExtension__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA6C722A669B7900C2FCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17105A2DC31B7321CA0CCF65 /* Pods_SafariExtension__macOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA6C7E2A669B7900C2FCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12231CC56DE4CE34A64EFA3 /* Pods_SafariExtension_Extension__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA6C882A669B7900C2FCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2114B5C751C0D4B6542B6DA /* Pods_SafariExtension_Extension__macOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83F9FB3F6471ADF68C32B4B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE0A83092A9DFE7600BA84A9 /* JavaScriptCore.framework */,
+				637721CD4C8B67A292644B8B /* Pods_SafariExtension__iOS_.framework */,
+				BED452AB5FB18E7A80BA8832 /* Pods_SafariExtension__macOS_.framework */,
+				7549BA4E148396185EEB589A /* Pods_SafariExtension_Extension__iOS_.framework */,
+				66F53BAB9ED3A1B91F208FFB /* Pods_SafariExtension_Extension__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89D78C011DBA70126D1E9DC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8EE508D644678C66953A647 /* Pods-SafariExtension (iOS).debug.xcconfig */,
+				74FA6D1373736BD3D516C4E2 /* Pods-SafariExtension (iOS).release.xcconfig */,
+				AA65692599F9B534F02AAA3C /* Pods-SafariExtension (macOS).debug.xcconfig */,
+				CD8333783598F7C147D113AE /* Pods-SafariExtension (macOS).release.xcconfig */,
+				DBA18D4BD8C2634C434E67C0 /* Pods-SafariExtension Extension (iOS).debug.xcconfig */,
+				4EA724E4C5D210336E20CFD1 /* Pods-SafariExtension Extension (iOS).release.xcconfig */,
+				B8B3925B5D801C60FC6BA546 /* Pods-SafariExtension Extension (macOS).debug.xcconfig */,
+				F7351A28955CFB1E27BD0E76 /* Pods-SafariExtension Extension (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC5933F07B244659A6F48AC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2B6092A9E3E2900227054 /* Inter.ttf */,
+				CEE2B6072A9E3D9900227054 /* assets */,
+				12F71A2A03584C90881F2B25 /* Inter.ttf */,
+				C095DE1756D54D8183A43AD9 /* Helvetica.ttf */,
+				09A9A6D1DB9948DEA31874B7 /* ABCFavorit-Bold.otf */,
+				93C538C27E8B4A3AB26BA75E /* ABCFavorit-Regular-Trial.otf */,
+				5BD8830F7E2B4437B0928CC7 /* ABCFavoritMono-Bold.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE0A83142A9E064100BA84A9 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CE0A83152A9E069A00BA84A9 /* RNSafeAreaContext.xcodeproj */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		CE0A83162A9E069A00BA84A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE0A831A2A9E069A00BA84A9 /* libRNCSafeAreaContext.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEA6C462A669B7800C2FCA6 = {
+			isa = PBXGroup;
+			children = (
+				84DDF7422ABE01D7002F9F28 /* GoogleService-Info.plist */,
+				CEE2B6142A9F333E00227054 /* assets */,
+				CE0A83142A9E064100BA84A9 /* Libraries */,
+				CE0A83032A9CBC3B00BA84A9 /* main.jsbundle */,
+				CE7EC3D42A726C6D001B83C4 /* SafariExtension Extension (iOS).entitlements */,
+				CE7EC3D32A726C6D001B83C4 /* SafariExtension (iOS).entitlements */,
+				CEEA6C4B2A669B7800C2FCA6 /* Shared (App) */,
+				CEEA6C542A669B7900C2FCA6 /* Shared (Extension) */,
+				CEEA6C652A669B7900C2FCA6 /* iOS (App) */,
+				CEEA6C762A669B7900C2FCA6 /* macOS (App) */,
+				CEEA6C852A669B7900C2FCA6 /* iOS (Extension) */,
+				CEEA6C8F2A669B7900C2FCA6 /* macOS (Extension) */,
+				CEEA6C642A669B7900C2FCA6 /* Products */,
+				89D78C011DBA70126D1E9DC4 /* Pods */,
+				83F9FB3F6471ADF68C32B4B9 /* Frameworks */,
+				CC5933F07B244659A6F48AC3 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		CEEA6C4B2A669B7800C2FCA6 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA6C522A669B7800C2FCA6 /* ViewController.swift */,
+				CEEA6C532A669B7900C2FCA6 /* Assets.xcassets */,
+				CEEA6C4C2A669B7800C2FCA6 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		CEEA6C4C2A669B7800C2FCA6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA6C4D2A669B7800C2FCA6 /* Main.html */,
+				CEE2B61A2A9F3FAB00227054 /* Icon.png */,
+				CEEA6C502A669B7800C2FCA6 /* Style.css */,
+				CEEA6C512A669B7800C2FCA6 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEEA6C542A669B7900C2FCA6 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA6C552A669B7900C2FCA6 /* SafariWebExtensionHandler.swift */,
+				CEEA6C562A669B7900C2FCA6 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		CEEA6C562A669B7900C2FCA6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA6C572A669B7900C2FCA6 /* _locales */,
+				CEEA6C582A669B7900C2FCA6 /* images */,
+				CEEA6C592A669B7900C2FCA6 /* manifest.json */,
+				CEF101252A7B953B00CACDB8 /* content.css */,
+				CEEA6C5A2A669B7900C2FCA6 /* background.js */,
+				CEEA6C5B2A669B7900C2FCA6 /* content.js */,
+				CEEA6C5C2A669B7900C2FCA6 /* popup.html */,
+				CEEA6C5D2A669B7900C2FCA6 /* popup.css */,
+				CEEA6C5E2A669B7900C2FCA6 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEEA6C642A669B7900C2FCA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA6C632A669B7900C2FCA6 /* SafariExtension.app */,
+				CEEA6C752A669B7900C2FCA6 /* SafariExtension.app */,
+				CEEA6C812A669B7900C2FCA6 /* SafariExtension Extension.appex */,
+				CEEA6C8B2A669B7900C2FCA6 /* SafariExtension Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEA6C652A669B7900C2FCA6 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA6C662A669B7900C2FCA6 /* AppDelegate.swift */,
+				CEEA6C682A669B7900C2FCA6 /* SceneDelegate.swift */,
+				CE0A83072A9CC2FE00BA84A9 /* ReactNativeBridgeDelegate.swift */,
+				CEEA6C6A2A669B7900C2FCA6 /* LaunchScreen.storyboard */,
+				CEEA6C6D2A669B7900C2FCA6 /* Main.storyboard */,
+				CEEA6C702A669B7900C2FCA6 /* Info.plist */,
+				84B9A5362ACAE083004B2FF8 /* SharedData.h */,
+				84B9A5372ACAE0D3004B2FF8 /* SharedData.m */,
+				84B9A5392ACAE2CA004B2FF8 /* SharedData.swift */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		CEEA6C762A669B7900C2FCA6 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA6C772A669B7900C2FCA6 /* AppDelegate.swift */,
+				CEEA6C792A669B7900C2FCA6 /* Main.storyboard */,
+				CEEA6C7C2A669B7900C2FCA6 /* SafariExtension.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		CEEA6C852A669B7900C2FCA6 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA6C862A669B7900C2FCA6 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		CEEA6C8F2A669B7900C2FCA6 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CEEA6C902A669B7900C2FCA6 /* Info.plist */,
+				CEEA6C912A669B7900C2FCA6 /* SafariExtension.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEEA6C622A669B7900C2FCA6 /* SafariExtension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEA6CB62A669B7900C2FCA6 /* Build configuration list for PBXNativeTarget "SafariExtension (iOS)" */;
+			buildPhases = (
+				AF718D11ABB2B1DC70B39B0D /* [CP] Check Pods Manifest.lock */,
+				CEEA6C5F2A669B7900C2FCA6 /* Sources */,
+				CEEA6C602A669B7900C2FCA6 /* Frameworks */,
+				CEEA6C612A669B7900C2FCA6 /* Resources */,
+				CEEA6CB52A669B7900C2FCA6 /* Embed Foundation Extensions */,
+				B393FA7DFF766A6378DFF85B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEEA6C842A669B7900C2FCA6 /* PBXTargetDependency */,
+			);
+			name = "SafariExtension (iOS)";
+			productName = "SafariExtension (iOS)";
+			productReference = CEEA6C632A669B7900C2FCA6 /* SafariExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEEA6C742A669B7900C2FCA6 /* SafariExtension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEA6CBD2A669B7900C2FCA6 /* Build configuration list for PBXNativeTarget "SafariExtension (macOS)" */;
+			buildPhases = (
+				B92A928795C2361C5802AFE4 /* [CP] Check Pods Manifest.lock */,
+				CEEA6C712A669B7900C2FCA6 /* Sources */,
+				CEEA6C722A669B7900C2FCA6 /* Frameworks */,
+				CEEA6C732A669B7900C2FCA6 /* Resources */,
+				CEEA6CBC2A669B7900C2FCA6 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEEA6C8E2A669B7900C2FCA6 /* PBXTargetDependency */,
+			);
+			name = "SafariExtension (macOS)";
+			productName = "SafariExtension (macOS)";
+			productReference = CEEA6C752A669B7900C2FCA6 /* SafariExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEEA6C802A669B7900C2FCA6 /* SafariExtension Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEA6CB22A669B7900C2FCA6 /* Build configuration list for PBXNativeTarget "SafariExtension Extension (iOS)" */;
+			buildPhases = (
+				01C29E76EA4A15E3C4D3E44C /* [CP] Check Pods Manifest.lock */,
+				CEEA6C7D2A669B7900C2FCA6 /* Sources */,
+				CEEA6C7E2A669B7900C2FCA6 /* Frameworks */,
+				CEEA6C7F2A669B7900C2FCA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SafariExtension Extension (iOS)";
+			productName = "SafariExtension Extension (iOS)";
+			productReference = CEEA6C812A669B7900C2FCA6 /* SafariExtension Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CEEA6C8A2A669B7900C2FCA6 /* SafariExtension Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEA6CB92A669B7900C2FCA6 /* Build configuration list for PBXNativeTarget "SafariExtension Extension (macOS)" */;
+			buildPhases = (
+				0FD9FD07A446A797FC71C21E /* [CP] Check Pods Manifest.lock */,
+				CEEA6C872A669B7900C2FCA6 /* Sources */,
+				CEEA6C882A669B7900C2FCA6 /* Frameworks */,
+				CEEA6C892A669B7900C2FCA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SafariExtension Extension (macOS)";
+			productName = "SafariExtension Extension (macOS)";
+			productReference = CEEA6C8B2A669B7900C2FCA6 /* SafariExtension Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEEA6C472A669B7800C2FCA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CEEA6C622A669B7900C2FCA6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CEEA6C742A669B7900C2FCA6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CEEA6C802A669B7900C2FCA6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CEEA6C8A2A669B7900C2FCA6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CEEA6C4A2A669B7800C2FCA6 /* Build configuration list for PBXProject "SafariExtension" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEEA6C462A669B7800C2FCA6;
+			packageReferences = (
+				84B760362B31C79800A5E82B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = CEEA6C642A669B7900C2FCA6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CE0A83162A9E069A00BA84A9 /* Products */;
+					ProjectRef = CE0A83152A9E069A00BA84A9 /* RNSafeAreaContext.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CEEA6C622A669B7900C2FCA6 /* SafariExtension (iOS) */,
+				CEEA6C742A669B7900C2FCA6 /* SafariExtension (macOS) */,
+				CEEA6C802A669B7900C2FCA6 /* SafariExtension Extension (iOS) */,
+				CEEA6C8A2A669B7900C2FCA6 /* SafariExtension Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CE0A831A2A9E069A00BA84A9 /* libRNCSafeAreaContext.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNCSafeAreaContext.a;
+			remoteRef = CE0A83192A9E069A00BA84A9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEEA6C612A669B7900C2FCA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE2B61C2A9F3FAB00227054 /* Icon.png in Resources */,
+				CE0A83042A9CBC3B00BA84A9 /* main.jsbundle in Resources */,
+				84DDF7442ABE01D7002F9F28 /* GoogleService-Info.plist in Resources */,
+				CEEA6C6C2A669B7900C2FCA6 /* LaunchScreen.storyboard in Resources */,
+				CEEA6C922A669B7900C2FCA6 /* Main.html in Resources */,
+				CEEA6C982A669B7900C2FCA6 /* Script.js in Resources */,
+				CEEA6C9C2A669B7900C2FCA6 /* Assets.xcassets in Resources */,
+				CEF101262A7B953B00CACDB8 /* content.css in Resources */,
+				CEE2B6162A9F333E00227054 /* assets in Resources */,
+				CEEA6C6F2A669B7900C2FCA6 /* Main.storyboard in Resources */,
+				CEEA6C962A669B7900C2FCA6 /* Style.css in Resources */,
+				88128A1B6B8F402385420C76 /* Helvetica.ttf in Resources */,
+				902958F6250843A7B0427530 /* ABCFavorit-Bold.otf in Resources */,
+				07C881177D6A4BDB888233F6 /* ABCFavorit-Regular-Trial.otf in Resources */,
+				DE684A0F02464E8F8C612CB1 /* ABCFavoritMono-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA6C732A669B7900C2FCA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEA6C972A669B7900C2FCA6 /* Style.css in Resources */,
+				CEEA6C7B2A669B7900C2FCA6 /* Main.storyboard in Resources */,
+				CEEA6C992A669B7900C2FCA6 /* Script.js in Resources */,
+				CEE2B61D2A9F3FAB00227054 /* Icon.png in Resources */,
+				CEF101272A7B953B00CACDB8 /* content.css in Resources */,
+				CEEA6C9D2A669B7900C2FCA6 /* Assets.xcassets in Resources */,
+				CEEA6C932A669B7900C2FCA6 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA6C7F2A669B7900C2FCA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF101282A7B953B00CACDB8 /* content.css in Resources */,
+				CEEA6CA62A669B7900C2FCA6 /* background.js in Resources */,
+				CEE2B61E2A9F3FAB00227054 /* Icon.png in Resources */,
+				CEEA6CAC2A669B7900C2FCA6 /* popup.css in Resources */,
+				CEEA6CAA2A669B7900C2FCA6 /* popup.html in Resources */,
+				CEEA6CA22A669B7900C2FCA6 /* images in Resources */,
+				CEEA6CA42A669B7900C2FCA6 /* manifest.json in Resources */,
+				CEEA6CA02A669B7900C2FCA6 /* _locales in Resources */,
+				CEEA6CA82A669B7900C2FCA6 /* content.js in Resources */,
+				CEEA6CAE2A669B7900C2FCA6 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA6C892A669B7900C2FCA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF101292A7B953B00CACDB8 /* content.css in Resources */,
+				CEEA6CA72A669B7900C2FCA6 /* background.js in Resources */,
+				CEE2B61F2A9F3FAB00227054 /* Icon.png in Resources */,
+				CEEA6CAD2A669B7900C2FCA6 /* popup.css in Resources */,
+				CEEA6CAB2A669B7900C2FCA6 /* popup.html in Resources */,
+				CEEA6CA32A669B7900C2FCA6 /* images in Resources */,
+				CEEA6CA52A669B7900C2FCA6 /* manifest.json in Resources */,
+				CEEA6CA12A669B7900C2FCA6 /* _locales in Resources */,
+				CEEA6CA92A669B7900C2FCA6 /* content.js in Resources */,
+				CEEA6CAF2A669B7900C2FCA6 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01C29E76EA4A15E3C4D3E44C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SafariExtension Extension (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FD9FD07A446A797FC71C21E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SafariExtension Extension (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF718D11ABB2B1DC70B39B0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SafariExtension (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B393FA7DFF766A6378DFF85B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SafariExtension (iOS)/Pods-SafariExtension (iOS)-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SafariExtension (iOS)/Pods-SafariExtension (iOS)-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SafariExtension (iOS)/Pods-SafariExtension (iOS)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B92A928795C2361C5802AFE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SafariExtension (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEEA6C5F2A669B7900C2FCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B9A53A2ACAE2CA004B2FF8 /* SharedData.swift in Sources */,
+				84B9A5382ACAE0D3004B2FF8 /* SharedData.m in Sources */,
+				CE0A83082A9CC2FE00BA84A9 /* ReactNativeBridgeDelegate.swift in Sources */,
+				CEEA6C9A2A669B7900C2FCA6 /* ViewController.swift in Sources */,
+				CEEA6C672A669B7900C2FCA6 /* AppDelegate.swift in Sources */,
+				CEEA6C692A669B7900C2FCA6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA6C712A669B7900C2FCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEA6C9B2A669B7900C2FCA6 /* ViewController.swift in Sources */,
+				CEEA6C782A669B7900C2FCA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA6C7D2A669B7900C2FCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEA6C9E2A669B7900C2FCA6 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEA6C872A669B7900C2FCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEA6C9F2A669B7900C2FCA6 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEEA6C842A669B7900C2FCA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEEA6C802A669B7900C2FCA6 /* SafariExtension Extension (iOS) */;
+			targetProxy = CEEA6C832A669B7900C2FCA6 /* PBXContainerItemProxy */;
+		};
+		CEEA6C8E2A669B7900C2FCA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEEA6C8A2A669B7900C2FCA6 /* SafariExtension Extension (macOS) */;
+			targetProxy = CEEA6C8D2A669B7900C2FCA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEEA6C4D2A669B7800C2FCA6 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEA6C4E2A669B7800C2FCA6 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		CEEA6C6A2A669B7900C2FCA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEA6C6B2A669B7900C2FCA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CEEA6C6D2A669B7900C2FCA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEA6C6E2A669B7900C2FCA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEEA6C792A669B7900C2FCA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEA6C7A2A669B7900C2FCA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEEA6CB02A669B7900C2FCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEEA6CB12A669B7900C2FCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CEEA6CB32A669B7900C2FCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA18D4BD8C2634C434E67C0 /* Pods-SafariExtension Extension (iOS).debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = "SafariExtension Extension (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33NPT984LC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HTMLSnapshot Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shopwithyourcrew.staging-backend.ios";
+				PRODUCT_NAME = "SafariExtension Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CEEA6CB42A669B7900C2FCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA724E4C5D210336E20CFD1 /* Pods-SafariExtension Extension (iOS).release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = "SafariExtension Extension (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33NPT984LC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HTMLSnapshot Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shopwithyourcrew.staging-backend.ios";
+				PRODUCT_NAME = "SafariExtension Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEEA6CB72A669B7900C2FCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8EE508D644678C66953A647 /* Pods-SafariExtension (iOS).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SafariExtension (iOS).entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 49;
+				DEVELOPMENT_TEAM = 33NPT984LC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/System/iOSSupport/System/Library/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = HTMLSnapshot;
+				INFOPLIST_KEY_NSContactsUsageDescription = "To help you connect with friends and streamline your experience, Gimme would like to access your contacts. We'll securely use this information solely for finding friends. Your privacy is important to us, and we won't misuse your contacts. Tap 'Allow' to enhance your app experience or 'Don't Allow' if you prefer to manage your contacts manually.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shopwithyourcrew.staging-backend";
+				PRODUCT_NAME = SafariExtension;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CEEA6CB82A669B7900C2FCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74FA6D1373736BD3D516C4E2 /* Pods-SafariExtension (iOS).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SafariExtension (iOS).entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 49;
+				DEVELOPMENT_TEAM = 33NPT984LC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/System/iOSSupport/System/Library/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = HTMLSnapshot;
+				INFOPLIST_KEY_NSContactsUsageDescription = "To help you connect with friends and streamline your experience, Gimme would like to access your contacts. We'll securely use this information solely for finding friends. Your privacy is important to us, and we won't misuse your contacts. Tap 'Allow' to enhance your app experience or 'Don't Allow' if you prefer to manage your contacts manually.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shopwithyourcrew.staging-backend";
+				PRODUCT_NAME = SafariExtension;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEEA6CBA2A669B7900C2FCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B3925B5D801C60FC6BA546 /* Pods-SafariExtension Extension (macOS).debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SafariExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 33NPT984LC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SafariExtension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shopwithyourcrew.staging-backend.ios";
+				PRODUCT_NAME = "SafariExtension Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CEEA6CBB2A669B7900C2FCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7351A28955CFB1E27BD0E76 /* Pods-SafariExtension Extension (macOS).release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SafariExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 33NPT984LC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SafariExtension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shopwithyourcrew.staging-backend.ios";
+				PRODUCT_NAME = "SafariExtension Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CEEA6CBE2A669B7900C2FCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA65692599F9B534F02AAA3C /* Pods-SafariExtension (macOS).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/SafariExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33NPT984LC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HTMLSnapshot;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shopwithyourcrew.staging-backend";
+				PRODUCT_NAME = SafariExtension;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CEEA6CBF2A669B7900C2FCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8333783598F7C147D113AE /* Pods-SafariExtension (macOS).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/SafariExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33NPT984LC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HTMLSnapshot;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shopwithyourcrew.staging-backend";
+				PRODUCT_NAME = SafariExtension;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEEA6C4A2A669B7800C2FCA6 /* Build configuration list for PBXProject "SafariExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEA6CB02A669B7900C2FCA6 /* Debug */,
+				CEEA6CB12A669B7900C2FCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CEEA6CB22A669B7900C2FCA6 /* Build configuration list for PBXNativeTarget "SafariExtension Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEA6CB32A669B7900C2FCA6 /* Debug */,
+				CEEA6CB42A669B7900C2FCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CEEA6CB62A669B7900C2FCA6 /* Build configuration list for PBXNativeTarget "SafariExtension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEA6CB72A669B7900C2FCA6 /* Debug */,
+				CEEA6CB82A669B7900C2FCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CEEA6CB92A669B7900C2FCA6 /* Build configuration list for PBXNativeTarget "SafariExtension Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEA6CBA2A669B7900C2FCA6 /* Debug */,
+				CEEA6CBB2A669B7900C2FCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CEEA6CBD2A669B7900C2FCA6 /* Build configuration list for PBXNativeTarget "SafariExtension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEA6CBE2A669B7900C2FCA6 /* Debug */,
+				CEEA6CBF2A669B7900C2FCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84B760362B31C79800A5E82B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = CEEA6C472A669B7800C2FCA6 /* Project object */;
+}

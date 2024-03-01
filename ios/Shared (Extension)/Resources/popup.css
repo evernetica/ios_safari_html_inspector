@@ -1,0 +1,40 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    width: 100px;
+    padding: 10px;
+
+    font-family: system-ui;
+    text-align: center;
+    display: flex;
+}
+
+p {
+    color: white;
+font-size: 20px;
+}
+
+div {
+
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Dark Mode styles go here. */
+}

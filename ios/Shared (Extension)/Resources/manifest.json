@@ -1,0 +1,91 @@
+{
+  "manifest_version": 3,
+  "default_locale": "en",
+  "name": "__MSG_extension_name__",
+  "description": "__MSG_extension_description__",
+  "version": "1.0",
+  "icons": {
+    "48": "images/icon-48.png",
+    "96": "images/icon-96.png",
+    "128": "images/icon-128.png",
+    "256": "images/icon-256.png",
+    "512": "images/icon-512.png"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "persistent": false
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "content_scripts": [
+    {
+      "js": [
+        "content.js",
+        "actionsListeners.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "matches": [
+        "*://*/*",
+        "<all_urls>",
+        "*://google.com/*"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "applications": {
+    "gecko": {
+      "id": "testProps1@example.com"
+    }
+  },
+  "devtools_page": "example_devtool.html",
+  "action": {
+    "default_icon": {
+      "16": "images/toolbar-icon-16.png",
+      "19": "images/toolbar-icon-19.png",
+      "32": "images/toolbar-icon-32.png",
+      "38": "images/toolbar-icon-38.png",
+      "48": "images/toolbar-icon-48.png",
+      "72": "images/toolbar-icon-72.png"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/*.png",
+        "images/*.svg",
+        "icons/logoImage.svg",
+        "icons/*.svg"
+      ],
+      "extension_ids": [
+        "*"
+      ],
+      "matches": [
+        "*://*/*"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "devtools",
+    "tabs",
+    "webRequest",
+    "http://*/*",
+    "https://*/*",
+    "page",
+    "contentSettings",
+    "clipboardRead",
+    "clipboardWrite",
+    "browserSettings",
+    "background",
+    "browsingData",
+    "management",
+    "sessions",
+    "theme",
+    "nativeMessaging",
+    "declarativeNetRequest",
+    "webRequestAuthProvider",
+    "webNavigation"
+  ]
+}

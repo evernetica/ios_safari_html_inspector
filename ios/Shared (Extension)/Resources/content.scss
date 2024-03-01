@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Inter:wght@300;400;500;700&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.actionImageTopButton {
+  width: 100%;
+  max-width: 60px;
+  max-height: 60px;
+}
+
+#actionButton {
+  position: fixed;
+  top: 132px;
+  right: 0;
+  width: 50px;
+  height: 56px;
+  background: #1A1B27;
+  z-index: 1000;
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+  border-width: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  padding-left: 4px;
+}
+
+.modalBlock {
+  position: fixed;
+  background: white;
+  z-index: 1000;
+  right: 20px;
+  top: 20px;
+  width: 375px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  max-height: 80vh;
+  max-width: 100%;
+  overflow: scroll;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+@media (max-width: 767px) {
+  .modalBlock {
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    flex: 1;
+    overflow-y: auto;
+    box-shadow: none;
+  }
+}
+
+.modalHeader {
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(229, 229, 229, 1);
+  position: relative;
+}
+
+.headerIcon {
+  object-fit: cover;
+  width: 18px;
+  height: 18px;
+}
+
+.headerName {
+  font-weight: 600;
+  color: black;
+  font-size: 17px;
+  font-family: Inter;
+}
+
+.headerClose {
+  transition: transform 0.15s ease-in-out;
+  padding: 4px;
+  background-color: #F2F3F6;
+  border-radius: 32px;
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+}
+
+.headerClose:hover {
+  transform: scale(1.2);
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px;
+}
+
+.couponSearchModalBlock {
+  background-color: white;
+  padding-top: 12px;
+  padding-bottom: 24px;
+  border-radius: 8px;
+  width: 800px;
+  width: 95%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 0;
+}
+
+.textContainer {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  font-size: 8px !important;
+  font-family: Inter !important;
+}
+
+#modalBlock .blockText {
+  font-size: 12px;
+  color: black;
+  font-family: Inter;
+}
+
+.actionButtonBadge {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  height: 11px;
+  width: 11px;
+  border-radius: 11px;
+}
+.buttonTextExt {
+  font-size: 8px !important;
+  font-family: Inter !important;
+}

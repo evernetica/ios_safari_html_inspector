@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDU4lEGpuAzICYTS87EobFi4CWd2wTO8gY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>830040998915</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.shopwithyourcrew.staging-backend</string>
+	<key>PROJECT_ID</key>
+	<string>crewdev-6838d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>crewdev-6838d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:830040998915:ios:a04853e2d9dab174e73a36</string>
+	<key>DATABASE_URL</key>
+	<string>https://crewdev-6838d.firebaseio.com</string>
+</dict>
+</plist>

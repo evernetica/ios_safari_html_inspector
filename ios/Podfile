@@ -1,0 +1,82 @@
+# Uncomment the next line to define a global platform for your project
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+platform :ios, '13.0'
+  use_frameworks! :linkage => :static
+
+
+
+target 'SafariExtension (iOS)' do
+  # Comment the next line if you don't want to use dynamic frameworks
+    use_react_native!
+  # Pods for SafariExtension (iOS)
+ pod 'React', :path => '../node_modules/react-native/'
+ pod 'React-Core', :path => '../node_modules/react-native/'
+    pod 'React-CoreModules', :path => '../node_modules/react-native/React/CoreModules'
+    # pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
+      pod 'RNSVG', :path => '../node_modules/react-native-svg'
+    pod 'RNScreens', :path => '../node_modules/react-native-screens'
+    pod 'RNGestureHandler', :podspec => '../node_modules/react-native-gesture-handler/'
+    pod 'react-native-safe-area-context', :path => '../node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec'
+    pod 'RNGoogleSignin', :path => '../node_modules/@react-native-google-signin/google-signin'
+    pod 'RNKeychain', :path => '../node_modules/react-native-keychain'
+    pod 'RNAppleAuthentication', :path => '../node_modules/@invertase/react-native-apple-authentication'
+    pod 'RNCPushNotificationIOS', :path => '../node_modules/@react-native-community/push-notification-ios'
+    pod 'RNFBApp', :path => '../node_modules/@react-native-firebase/app'
+    pod 'RNFBMessaging', :path => '../node_modules/@react-native-firebase/messaging'
+    pod 'react-native-contacts', :path => '../node_modules/react-native-contacts'
+    pod 'react-native-branch', path: '../node_modules/react-native-branch'
+    pod 'RNFBFirestore', :path => '../node_modules/@react-native-firebase/firestore'
+    pod 'react-native-contacts', :path => '../node_modules/react-native-contacts'
+    pod 'react-native-background-actions', :path => '../node_modules/react-native-background-actions'
+    pod 'RNNotifee', :path => '../node_modules/@notifee/react-native'
+    pod 'RNCClipboard', :path => '../node_modules/@react-native-clipboard/clipboard'
+    pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+    pod 'RNCMaskedView', :path => '../node_modules/@react-native-masked-view/masked-view'
+end
+
+target 'SafariExtension (macOS)' do
+  # Comment the next line if you don't want to use dynamic frameworks
+
+  # Pods for SafariExtension (macOS)
+
+end
+
+target 'SafariExtension Extension (iOS)' do
+  # Comment the next line if you don't want to use dynamic frameworks
+
+  # Pods for SafariExtension Extension (iOS)
+
+end
+
+target 'SafariExtension Extension (macOS)' do
+  # Comment the next line if you don't want to use dynamic frameworks
+
+  # Pods for SafariExtension Extension (macOS)
+
+end
+
+post_install do |installer|
+    react_native_post_install(installer)
+# fix xcode 15 DT_TOOLCHAIN_DIR - remove after fix oficially - https://github.com/CocoaPods/CocoaPods/issues/12065
+  installer.aggregate_targets.each do |target|
+      target.xcconfigs.each do |variant, xcconfig|
+      xcconfig_path = target.client_root + target.xcconfig_relative_path(variant)
+      IO.write(xcconfig_path, IO.read(xcconfig_path).gsub("DT_TOOLCHAIN_DIR", "TOOLCHAIN_DIR"))
+      end
+  end
+
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      if config.base_configuration_reference.is_a? Xcodeproj::Project::Object::PBXFileReference
+          xcconfig_path = config.base_configuration_reference.real_path
+          IO.write(xcconfig_path, IO.read(xcconfig_path).gsub("DT_TOOLCHAIN_DIR", "TOOLCHAIN_DIR"))
+      end
+    end
+  end
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+          config.build_settings['APPLICATION_EXTENSION_API_ONLY'] = 'NO'
+          end
+        end
+end

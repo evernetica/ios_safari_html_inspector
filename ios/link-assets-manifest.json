@@ -1,0 +1,25 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/ABCFavorit-Bold.otf",
+      "sha1": "54c396990664114cc03ad2f57b788233ea38375e"
+    },
+    {
+      "path": "assets/fonts/ABCFavorit-Regular-Trial.otf",
+      "sha1": "b4f3e8d37ddf0c899fcb37135b29257e0639e997"
+    },
+    {
+      "path": "assets/fonts/ABCFavoritMono-Bold.otf",
+      "sha1": "a5e78829ea49c8f9ddeadaa459f49e78e6d86560"
+    },
+    {
+      "path": "assets/fonts/Helvetica.ttf",
+      "sha1": "53cb59bdb997dd39dc70b95d50133583e66ebdcb"
+    },
+    {
+      "path": "assets/fonts/Inter.ttf",
+      "sha1": "44b415f3b0ac1da7f3044ba6bcc542a649d4a447"
+    }
+  ]
+}
