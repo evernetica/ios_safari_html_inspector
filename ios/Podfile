@@ -18,21 +18,13 @@ target 'SafariExtension (iOS)' do
     pod 'RNScreens', :path => '../node_modules/react-native-screens'
     pod 'RNGestureHandler', :podspec => '../node_modules/react-native-gesture-handler/'
     pod 'react-native-safe-area-context', :path => '../node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec'
-    pod 'RNGoogleSignin', :path => '../node_modules/@react-native-google-signin/google-signin'
-    pod 'RNKeychain', :path => '../node_modules/react-native-keychain'
-    pod 'RNAppleAuthentication', :path => '../node_modules/@invertase/react-native-apple-authentication'
-    pod 'RNCPushNotificationIOS', :path => '../node_modules/@react-native-community/push-notification-ios'
     pod 'RNFBApp', :path => '../node_modules/@react-native-firebase/app'
     pod 'RNFBMessaging', :path => '../node_modules/@react-native-firebase/messaging'
-    pod 'react-native-contacts', :path => '../node_modules/react-native-contacts'
     pod 'react-native-branch', path: '../node_modules/react-native-branch'
     pod 'RNFBFirestore', :path => '../node_modules/@react-native-firebase/firestore'
-    pod 'react-native-contacts', :path => '../node_modules/react-native-contacts'
     pod 'react-native-background-actions', :path => '../node_modules/react-native-background-actions'
     pod 'RNNotifee', :path => '../node_modules/@notifee/react-native'
     pod 'RNCClipboard', :path => '../node_modules/@react-native-clipboard/clipboard'
-    pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
-    pod 'RNCMaskedView', :path => '../node_modules/@react-native-masked-view/masked-view'
 end
 
 target 'SafariExtension (macOS)' do
